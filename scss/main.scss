@@ -1,3 +1,16 @@
-h1{
-    color: red($color: #000000);
+*{
+    margin: 0;
+    padding: 0;
+
+}
+titulo-pricipal{
+    font-family: 'Acme', sans-serif;
+
+    text-decoration-line: underline;
+    color:black;
+    font-size: 45px;
+    line-height: 50px;
+    word-spacing: 20px;
+
+
 }

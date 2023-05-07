@@ -1,5 +1,15 @@
-h1 {
-  color: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+titulo-pricipal {
+  font-family: "Acme", sans-serif;
+  text-decoration-line: underline;
+  color: black;
+  font-size: 45px;
+  line-height: 50px;
+  word-spacing: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
