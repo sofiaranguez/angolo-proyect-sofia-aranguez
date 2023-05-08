@@ -1,16 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
 
-}
-titulo-pricipal{
-    font-family: 'Acme', sans-serif;
+titulos
+.titulo-principal {
+    font-family: 'Carter One', cursive;
 
     text-decoration-line: underline;
-    color:black;
-    font-size: 45px;
-    line-height: 50px;
+    color: black;
+    font-size: 35px;
+    line-height: 40px;
     word-spacing: 20px;
+}
 
+.titulo-principal-1 {
+    font-family: 'Carter One', cursive;
+    
+    text-decoration-line: underline;
+    color: black;
+    font-size: 35px;
+    line-height: 40px;
+    word-spacing: 10px;
 
+}
+.carousel{
+    width: 100%;
+}
+
+.pie{
+    background-color: #FAEBD7;
+}
+
+.informacion-footer{
+margin-bottom: 20px;
 }
