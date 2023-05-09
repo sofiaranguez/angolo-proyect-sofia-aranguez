@@ -1,12 +1,4 @@
-titulos .titulo-principal {
-    font-family: 'Carter One', cursive;
 
-    text-decoration-line: underline;
-    color: black;
-    font-size: 35px;
-    line-height: 40px;
-    word-spacing: 20px;
-}
 
 .titulo-principal-1 {
     font-family: 'Carter One', cursive;
@@ -72,4 +64,17 @@ titulos .titulo-principal {
 
 .card-img{
     width: 100%;
+}
+
+.gelatos-sabor{
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    gap: 25px;
+    justify-content: center;
+    
+    
 }
