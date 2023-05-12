@@ -6,7 +6,8 @@
   line-height: 40px;
   word-spacing: 10px;
 }
-.titulo-principal{
+
+.titulo-principal {
   font-family: "Carter One", cursive;
   text-decoration-line: underline;
   color: black;
@@ -25,41 +26,66 @@
 
 
 
-.titulo-productos{
+.titulo-productos {
   background-color: rgb(227, 209, 182);
   color: black;
   padding: 1em;
   font-size: 2rem;
   text-align: center;
 }
+.titulo{
+  font-family: 'Kalam', cursive;
+}
+
 .tarjetas {
   background-color: rgb(227, 209, 182);
   border: 2px solid black;
-  width: 300px;
+  width: 450px;
   height: 300px;
   border-radius: 20px;
   overflow: hidden;
-  gap: 20px;
+
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.tarjetas-1{
-  display: flex;
-  gap: 20px;
-  overflow:hidden ;
-}
+
 
 .imagen {
-  width: 50%;
+  width: 60%;
 }
-.paginas{
+
+.paginas {
   display: flex;
-  gap:20px;
-  justify-content:center;
+  gap: 20px;
+  justify-content: center;
   align-items: center;
 }
 
+.gelatos-sabores {
+  display:flex;
+  gap: 15px;
+  flex-flow: row nowrap;
+  padding-top: 100px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  justify-content: center;
+margin-right: 20px;
+}
+
+.pasteleria{
+  display: flex;
+}
+.cannolis{
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.historia{
+  font-family: 'Kalam', cursive;
+}
 
 /*# sourceMappingURL=style.css.map */
