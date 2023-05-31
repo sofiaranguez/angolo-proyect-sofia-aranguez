@@ -1,2 +1,19 @@
 
 
+$color-primario: black;
+$titulo-font-family: "Carter One", cursive;
+
+.titulo-principal-1 {
+    font-family: $titulo-font-family;
+    // Resto de las propiedades
+  }
+
+  @mixin titulo-principal {
+    font-family: $titulo-font-family;
+    // Resto de las propiedades
+  }
+  
+  .titulo-principal {
+    @include titulo-principal;
+  }
+  
